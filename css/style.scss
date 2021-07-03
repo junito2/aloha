@@ -1,0 +1,606 @@
+body{
+    width: 100vw;
+
+    /*header内*main画像込み*/
+    header{
+        .main_top{    
+            height: 120px;    
+            display: flex;
+                .logo{
+                    text-align: center;
+                    margin-left: 15px;
+                    position: relative;
+                    img{
+                    margin-top: 10px;
+                    padding-bottom: 20px;
+                    }
+                    p{
+                        margin-top: -34px;
+                        margin-left: 6px;
+                        font-size: 12px;
+                        position: absolute;
+                        color: #a0a289;
+                    }
+                }
+                h1{
+                    font-size: 45px;
+                    margin:0 auto;
+                    color: #080808;
+                    text-align: center;
+                    
+                    p{
+                        font-size: 30px;
+                        margin-top: -5px;
+                    }
+                }
+                .tel{
+                    text-align: right;
+                    margin-right: 5%;
+                }
+        }
+        nav{
+            height: 25px;
+            margin: 0 auto;
+            
+                    ul{
+                        text-align: center;
+                        margin: 0 60px;
+                        display: flex;
+                        justify-content:space-between;
+                        li{
+                            width: 100vw;
+                            border-left: 1px solid #565656;
+                            a{
+                                text-decoration: none;
+                                color: #565656;
+                                list-style: none;
+                            }
+                            
+                        } 
+                      
+                        }
+                        li:nth-child(5){
+                            border-right:1px solid #565656 ;
+                        }
+                    }      
+        }
+    }
+
+    .main{
+        overflow: hidden;
+        width: 100vw;
+        height: 500px;
+        img{
+            width: 100%;
+            margin: -68% auto;
+        }   
+    }
+    /*header内main画像込み*/
+
+    /*コンテンツ1(PICK_UP)*/
+    .pickup{  
+        margin-bottom: 50px;   
+        .sankaku{
+            h2{
+                font-size: 60px;
+            }
+        }
+        .pickup_box{
+            display: flex;
+            justify-content: center;
+            .pickup_box_sub{
+                width: 250px;
+                height: 350px;
+                border: 1px solid #565656;
+                overflow: hidden;
+                margin-top: 3em;
+                margin-right: 10px;
+                text-align: center;
+            }
+            img{
+                width: 250px;
+                height: 250px;
+                margin-bottom: -7px;
+            }
+            .pickup_title{
+                margin: 10px auto;
+                font-size: 20px;
+            }
+        }
+    }
+    /*コンテンツ1(PICK_UP)*/
+
+    /*コンテンツ2(食べる・楽しむ)*/
+    .food_enjoy{
+        color: #fff;
+        background-color: #000;
+
+
+        .contents{   
+        height:  570px;
+        overflow: hidden;
+        background-image: url(../img/egg.jpg);
+        background-size: 100%;
+        position: relative;
+            .food_enjoy_title{
+                position: absolute;
+                right: 0;
+                left: 0;
+                
+            }
+            .food_enjoy_box1{ 
+                display: flex;
+                color: #000;
+                position: absolute;
+                width: 80vw;
+                height: 327px;
+                margin: 0 10%;
+                bottom: 30px;
+                background-color:rgba(255, 255, 255, 0.8);
+                
+                .food_enjoy_img{
+                    width: 351px;
+                    height: 327px;
+                    overflow: hidden;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                }
+                .food_enjoy_box1_1{
+                    text-align: left;
+                    margin: 0 auto;
+                    p{
+                        width: 350px;
+                    }
+                }
+            }
+        }
+        .contents::before{
+            content: "";
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+        .food_enjoy_box2{
+            display: flex;
+            background-image: url(../img/youtube_img.png);
+            background-size: cover;
+            background-position-y: -1em;
+            height: 400px;
+            position: relative;
+            color: #000;
+
+            .food_enjoy_box2-1{
+                position: absolute;
+                text-align: left;
+                width: 80vw;
+                height: 298px;
+                margin: 0 10%;
+                bottom: 30px;
+                bottom: 3em;
+                background-color:rgba(255, 255, 255, 0.8);
+                h3{
+                    margin-left: -12em;
+                    margin-top: 22px;
+                }
+                    p{
+                        width: 50%;
+                        margin-left: 9%;
+                    }
+                    .reservation{
+                        margin-left: 10em;
+                    }
+            }
+            .food_enjoy_img2{
+                position: absolute;
+                overflow: hidden;
+                width: 300px;
+                height: 250px;
+                top: 4.6em;
+                right: 10em;
+                
+                iframe{
+                    width: 294px;
+                    height: 280px; 
+                }
+            }
+        }
+        .food_enjoy_box2::before{
+            content: "";
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+    }
+    /*コンテンツ2(食べる・楽しむ)*/
+
+    /*コンテンツ3(お家でアロハ)*/
+    .home_aloha{
+       text-align: center;
+       color: #000;
+       height: 550px;
+    }
+        
+        .home_aloha_img{
+            position: relative;
+            width: 100%;
+            height: 258px;
+            overflow: hidden;
+            margin-top: 3em;
+            display: flex;
+            filter: opacity(0.8);
+            img{
+                width: 100vw;
+                height: 258px;
+                margin-left: -4px;
+            }
+            .buy{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+           
+             }
+        
+
+    }
+    /*コンテンツ3(お家でアロハ)*/
+
+    /*コンテンツ4(当店のこだわり)*/
+    .shop{
+        width: 100vw;
+        height: 600px;;
+        overflow:hidden;
+        background-image: url(../img/sea1.jpg);
+        background-position: 20% 75%;
+        background-size: 100%;
+        position: relative;
+        .shop_box{
+            position: absolute;
+            top: 195px;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            color: #fff;
+            .shop_content{
+                
+                height: 200px;
+                margin-left: 25%;
+               
+                .shop_img{
+                    float: left;
+                    width: 300px;
+                    height: 200px;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+
+                    }
+                   
+                }
+                p{
+                    width: 591px;
+                    text-align: left;
+                    
+                }
+            }
+        }
+    }
+    .shop::before{
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    /*コンテンツ4(当店のこだわり)*/
+
+    /*コンテンツ5(新着情報)*/
+    .news{
+        color: #000;
+        height: 345px;
+        table{
+            margin: 0 auto 50px;
+            border-top: #000 2px solid;
+            border-bottom: #000 2px solid;
+            tr{
+                border-bottom: #9c9c9c 1px solid;
+                th{
+                    padding-right: 5px;
+                    
+                }
+                td{
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    /*コンテンツ5(新着情報)*/
+
+    /*コンテンツ6(会社概要)*/
+    .company_profile{
+            width: 100vw;
+            height: 566px;
+            overflow:hidden;
+            background-image: url(../img/sea2.jpg);
+            background-position: 20% 75%;
+            position: relative;
+        .company_profile_box{
+            position: absolute;
+            top: 241px;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            margin: auto;
+            color: #fff;
+            .company_profile_contens{
+                display: flex;
+                margin: 0 auto;
+                width: 600px;
+                height: 300px;
+                background-color: rgba(0, 0, 0, 0.5);
+                .company_profile_tel{
+                    width: 300px;
+                    height: 300px;
+                    padding: 1em;
+                }
+                .company_profile_map{
+                    width: 300px;
+                    height: 300px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .company_profile::before{
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    /*コンテンツ6(会社概要)*/
+
+    /*コンテンツ7(お問い合わせフォーム)*/
+    .contact{
+        width: 100vw;
+        height: 575px;
+        overflow:hidden;
+        background-image: url(../img/sea3.jpg);
+        background-size: 100%;
+        background-position: 0 26%;    
+        color: #fff;
+        .form{
+            width: 600px;
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            padding: 1em;
+            border: 1px solid #fff;
+            table{
+                display: block;
+                position: absolute;
+                height: 200px;
+                .form_box{
+                    color: #000;
+                    width: 500px;
+                    padding-bottom: 10px;
+                    display: table;
+                    text-align: left;
+                    .form_item{
+                        width: 30%;
+                        padding-right: 3em;
+                    }
+                    .form_input{
+                        width: 70%;
+                        height: 20px;
+                        background-color: #fff;
+                        border: 1px solid #565656;
+                        border-radius: 3px;
+                        input{
+                            border: none;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                    }
+                }
+            }
+            .form_bt{
+                position: absolute;
+                top: 77%;
+                left: 29%;
+                .bt{
+                    width: 173px;
+                }
+            }
+            
+        }
+        .form::before{
+            content: "";
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.60);
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            -webkit-filter: blur(3px);
+            backdrop-filter: blur(3px);
+        }
+        
+    
+    }
+    /*コンテンツ7(お問い合わせフォーム)*/
+
+
+
+footer{
+    height: 60px;
+    background-color: #565656;
+    font-size: 12px;
+    color: #fff;
+    .footer_logo{
+        width: 30px;
+        height: 0px;
+        
+        img{
+            width: 50px;
+            height: 50px;
+            margin-top: 6px;
+            margin-left: 2px;
+        }
+    }
+    nav{
+        margin-bottom: 5px;
+        
+        ul{
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+            
+            li{
+                margin: 5px 10px 0px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    list-style: none;
+                }
+                
+            }
+        }
+    }
+    p{
+        text-align: center;
+        
+    }
+}
+
+body{
+
+font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+
+
+
+
+h1{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 40px;
+  
+}
+
+h2{
+    font-family: 'Noto Serif JP', serif;
+    margin: 1em auto -22px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    font-size: 27px;
+}
+
+.sankaku{
+    width: 100vw;
+    height: 100px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    img{
+        margin: 31px auto;
+        display: block;
+    }
+}
+
+.sankaku2{
+    width: 100vw;
+    height: 100px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    img{
+        margin: 31px auto;
+        display: block;
+    }
+}
+
+.reservation{
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border: #565656 2px solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-decoration: none;    
+    color: #565656;    
+}
+.reservation:hover{
+    color: #c7af00;
+}
+
+.reservation2{
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    width: 210px;
+    height: 50px;
+    background-color: #fff;
+    border: #565656 2px solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-decoration: none;    
+    color: #565656;    
+}
+.reservation2:hover{
+    color: #c7af00;
+}
+
+
+.buy_bt{
+    display: block;
+    text-align: center;
+    margin: 7em auto;;
+    width: 210px;
+    height: 50px;
+    background-color: #fff;
+    border: #565656 2px solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-decoration: none;  
+    color: #565656;   
+       
+}
+.buy_bt:hover{
+    color: #c7af00;
+}
+
+tr{
+    margin: 10px;
+}
+
+li a:hover{
+    color:#b76e00;
+}
+nav li::before {
+    content: "";
+}
