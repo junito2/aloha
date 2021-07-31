@@ -1,37 +1,31 @@
 
 body{
-
-
+    font-family: 'Noto Sans JP', sans-serif;
     /*header内*main画像込み*/
     header{
         .main_top{       
             display: flex;
-                .logo{
-                    text-align: center;
-                    margin-top: 10px;
-                    margin-left: 15px;
-                    position: relative;
-                    img{
-                    
+            .logo{
+                text-align: center;
+                margin-top: 10px;
+                margin-left: 15px;
+                position: relative;
+                img{
                     padding-bottom: 20px;
-                    }
-                    p{
-                        margin-top: -34px;
-                       
-                        font-size: 0.5rem;
-                       
-                        color: #a0a289;
-                    }
                 }
+                p{
+                    margin-top: -34px;
+                    font-size: 0.5rem;
+                    color: #a0a289;
+                }
+            }
                 h1{
                     font-size: 4vw;
                     margin:0 auto;
                     color: #080808;
                     text-align: center;
-                    
                     p{
                         font-size: 2vw;
-                       
                     }
                 }
                 .tel{
@@ -41,13 +35,12 @@ body{
         nav{
             height: 25px;
             margin: 0 auto;
-            
-                    ul{
-                        text-align: center;
-                        font-size: 16px;
-                        margin: 0 6%;
-                        display: flex;
-                        justify-content:space-between;
+            ul{
+                text-align: center;
+                font-size: 16px;
+                margin: 0 6%;
+                display: flex;
+                justify-content:space-between;
                         li{
                             width: 100vw;
                             border-left: 1px solid #565656;
@@ -55,15 +48,14 @@ body{
                                 text-decoration: none;
                                 color: #565656;
                                 list-style: none;
-                            }
-                            
+                            }   
                         } 
                       
                         }
                         li:nth-child(5){
                             border-right:1px solid #565656 ;
                         }
-                    }      
+            }      
         }
     }
 
@@ -493,32 +485,18 @@ footer{
                     color: #fff;
                     text-decoration: none;
                     list-style: none;
-                }
-                
+                }               
             }
         }
     }
     p{
-        text-align: center;
-        
+        text-align: center;   
     }
-   
 }
-
-body{
-
-font-family: 'Noto Sans JP', sans-serif;
-
-}
-
-
-
-
 
 h1{
     font-family: 'Noto Serif JP', serif;
     font-size: 40px;
-  
 }
 
 h2{
@@ -1325,12 +1303,13 @@ h2{
 
     /*コンテンツ3(お家でアロハ)*/
     .home_aloha{
-        height: 469px;
+        height: 447px;
         p{
             margin-top: -3px;
         }
         .home_aloha_img{
             margin-top: 0;
+            height: 157px;
             /*
             img{
                 height: 7rem;
