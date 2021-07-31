@@ -48,7 +48,8 @@ body header nav {
 
 body header nav ul {
   text-align: center;
-  margin: 0 60px;
+  font-size: 16px;
+  margin: 0 6%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -664,6 +665,10 @@ tr {
   margin: 10px;
 }
 
+.break_sp_2 {
+  display: none;
+}
+
 .break_sp3 {
   display: inline;
 }
@@ -724,7 +729,6 @@ nav li::before {
   }
   body header nav {
     height: auto;
-    font-size: 0.3rem;
   }
   body .pickup .pickup_box .pickup_box_sub {
     height: 284px;
@@ -797,12 +801,6 @@ nav li::before {
   .break_sp4 {
     display: none;
   }
-  br.break_sp_2 {
-    display: none;
-  }
-  br.break_pc_2 {
-    display: none;
-  }
   h2 {
     font-size: 3rem;
   }
@@ -833,6 +831,10 @@ nav li::before {
   body header .main_top h1 {
     font-size: 1.6rem;
     margin-top: 0.5rem;
+  }
+  body header nav ul {
+    font-size: 14px;
+    width: 87vw;
   }
   body .main {
     height: 12rem;
@@ -955,12 +957,8 @@ nav li::before {
   }
 }
 
-br.break_sp_2 {
+.break_sp_2 {
   display: inline;
-}
-
-br.break_pc_2 {
-  display: none;
 }
 
 .img_sp {
@@ -983,6 +981,11 @@ br.break_pc_2 {
     /*コンテンツ6(会社概要)*/
     /*コンテンツ7(お問い合わせフォーム)*/
     /*コンテンツ7(お問い合わせフォーム)*/
+  }
+  body header nav ul {
+    font-size: 12px;
+    width: 93vw;
+    margin: 0px 4%;
   }
   body .food_enjoy .contents .food_enjoy_box1 .food_enjoy_box1_1 .reservation {
     margin-top: 85px;
@@ -1258,28 +1261,27 @@ br.break_pc_2 {
     height: 100%;
   }
   body .home_aloha {
-    height: 401px;
+    height: 469px;
   }
   body .home_aloha p {
     margin-top: -3px;
   }
   body .home_aloha .home_aloha_img {
-    height: auto;
-    margin-top: 1em;
+    margin-top: 0;
     /*
             img{
                 height: 7rem;
                 margin-left: 0px;
             }*/
   }
-  body .buy_bt {
-    margin: 1em auto;
+  body .home_aloha .buy_bt {
+    margin: 4em auto;
     width: 51vw;
     height: 31px;
     padding-top: 0;
   }
   body .shop {
-    height: 342px;
+    height: 395px;
     background-size: 200%;
   }
   body .shop .sankaku2 {
