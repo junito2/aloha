@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  font-family: 'Noto Sans JP', sans-serif;
   /*header内*main画像込み*/
 }
 
@@ -554,10 +555,6 @@ footer nav ul li a {
 
 footer p {
   text-align: center;
-}
-
-body {
-  font-family: 'Noto Sans JP', sans-serif;
 }
 
 h1 {
@@ -1264,13 +1261,14 @@ nav li::before {
     height: 100%;
   }
   body .home_aloha {
-    height: 469px;
+    height: 447px;
   }
   body .home_aloha p {
     margin-top: -3px;
   }
   body .home_aloha .home_aloha_img {
     margin-top: 0;
+    height: 157px;
     /*
             img{
                 height: 7rem;
