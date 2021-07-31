@@ -44,7 +44,8 @@ body{
             
                     ul{
                         text-align: center;
-                        margin: 0 60px;
+                        font-size: 16px;
+                        margin: 0 6%;
                         display: flex;
                         justify-content:space-between;
                         li{
@@ -618,6 +619,10 @@ tr{
     margin: 10px;
 }
 
+.break_sp_2{
+    display: none;
+}
+
 .break_sp3{
     display: inline;
 }
@@ -680,7 +685,6 @@ body{
         }
         nav{
             height: auto;
-            font-size: 0.3rem;
         }
         
 
@@ -789,14 +793,6 @@ body{
     display: none;
 }
 
-br{
-    &.break_sp_2{
-        display: none;
-    }
-    &.break_pc_2{
-        display: none;
-    }
-}
 h2{
     font-size: 3rem;
 }
@@ -820,6 +816,13 @@ h2{
                 }
                 
             }
+            nav{
+                ul{
+                    font-size: 14px;
+                    width: 87vw;
+                }
+        }
+        
         }
         .main{
             height: 12rem;
@@ -977,13 +980,8 @@ h2{
     }
 }
 
-br{
-    &.break_sp_2{
+.break_sp_2{
         display: inline;
-    }
-    &.break_pc_2{
-        display: none;
-    }
 }
 
 .img_sp{
@@ -1001,6 +999,15 @@ br{
 @media screen and (max-width: 695px){
 
     body{
+        header {
+            nav {
+                ul{
+                    font-size: 12px;
+                    width: 93vw;
+                    margin: 0px 4%;
+                }
+            }
+        }
       /*コンテンツ2(食べる・楽しむ)*/
         .food_enjoy {
             .contents{
@@ -1315,32 +1322,32 @@ br{
 
     /*コンテンツ3(お家でアロハ)*/
     .home_aloha{
-        height: 401px;
+        height: 469px;
         p{
             margin-top: -3px;
         }
         .home_aloha_img{
-            height: auto;
-            margin-top: 1em;
+            margin-top: 0;
             /*
             img{
                 height: 7rem;
                 margin-left: 0px;
             }*/
         }
+        .buy_bt{
+            margin: 4em auto;
+            width: 51vw;
+            height: 31px;
+            padding-top: 0;
+        }
     }
     
-    .buy_bt{
-        margin: 1em auto;
-        width: 51vw;
-        height: 31px;
-        padding-top: 0;
-    }
+    
     /*コンテンツ3(お家でアロハ)*/
 
     /*コンテンツ4(当店のこだわり)*/
     .shop{
-        height: 342px;
+        height: 395px;
         background-size: 200%;
         .sankaku2{
             position: absolute;
